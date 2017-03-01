@@ -1,15 +1,13 @@
 
-# Tensor Ranks, Shapes and Type:
+# Tensor Ranks and Tensor Shapes:
 
-a. TensorFlow programs use a tensor data structure to represent all data. 
-b. You can think of a TensorFlow tensor as an n-dimensional array or list.
-c. A tensor has a static type and dynamic dimensions.
+TensorFlow programs use a tensor data structure to represent all data. 
+You can think of a TensorFlow tensor as an n-dimensional array or list. A tensor has a static type and dynamic dimensions.
 
 
 ### Rank
-a. In the TensorFlow system, tensors are described by a unit of dimensionality known as Rank.
-b. Tensor rank is the number of dimensions of the tensor.
-c. For example, consider the following table:
+In the TensorFlow system, tensors are described by a unit of dimensionality known as Rank. 
+Tensor rank is the number of dimensions of the tensor. For example, consider the following table:
 
  ---------------------------------------------------------------------------------------------------------
 | Rank  | Math Entity                      | Python Example                                               |
@@ -23,8 +21,8 @@ c. For example, consider the following table:
 
 
 ### Shape
-a. The TensorFlow documentation uses three notational conventions to describe tensor dimensionality: rank, shape, and dimension number.
-b. The following table shows how these relate to one another:
+The TensorFlow documentation uses three notational conventions to describe tensor dimensionality: rank, shape, and dimension number.
+The following table shows how these relate to one another:
 
  -------------------------------------------------------------------------------------------- 
 | Rank  | Shape              | Dimension Number   | Example                                 |
