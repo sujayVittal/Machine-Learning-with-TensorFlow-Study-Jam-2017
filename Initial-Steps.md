@@ -1,6 +1,6 @@
 
 # Initial Steps:
-1. Analyze 'mnist_softmax.py' file [Link: https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/mnist.py]
+1. Analyze 'mnist_softmax.py' file 
 
   A. The MNIST database is hosted on http://yann.lecun.com/exdb/mnist/ [Download]
                             OR
