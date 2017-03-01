@@ -16,4 +16,6 @@
     b. 10,000 data points of Test data - mnist.test
     c. 5,000 data points of Validation data - mnist.validation
 
-    Every MNIST data point has two parts: an image of a handwritten digit and a corresponding label. We'll call the images "x" and the labels "y". Both the training set and test set contain images and their corresponding labels; for example the training images are mnist.train.images and the training labels are mnist.train.labels.
+    Every MNIST data point has two parts: an image of a handwritten digit and a corresponding label. We'll call the images "x" and the labels "y". 
+    Both the training set and test set contain images and their corresponding labels.
+    For example the training images are mnist.train.images and the training labels are mnist.train.labels.
