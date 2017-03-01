@@ -1,4 +1,3 @@
-# Resource page for Machine Learning Study Jam 2017 (Google Developers' Group Bangalore)
 
 # Initial Steps:
 1. Analyze 'mnist_softmax.py' file [Link: https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/mnist.py]
