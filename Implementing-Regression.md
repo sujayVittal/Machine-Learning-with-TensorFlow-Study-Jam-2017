@@ -5,7 +5,7 @@
 
 1. Import TensorFlow :
     
-    import tensorflow as tf
+        import tensorflow as tf
       
 2. We describe these interacting operations by manipulating symbolic variables. Let's create one:
        
