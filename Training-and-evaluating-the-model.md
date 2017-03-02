@@ -40,3 +40,21 @@
 ######   Using small batches of random data is called stochastic training -- in this case, stochastic gradient descent. Ideally, we'd like to use all our data for every step of training because that would give us a better sense of what we should be doing, but that's expensive. So, instead, we use a different subset every time. Doing this is cheap and has much of the same benefit.
  
    
+# Evaluating our Model
+
+## How well does our model do? 
+
+#### 1. First let's figure out where we predicted the correct label. tf.argmax is an extremely useful function which gives you the index of the highest entry in a tensor along some axis. For example, tf.argmax(y,1) is the label our model thinks is most likely for each input, while tf.argmax(y_,1) is the correct label. We can use tf.equal to check if our prediction matches the truth:
+
+        correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
+        
+#### 2. That gives us a list of booleans. To determine what fraction are correct, we cast to floating point numbers and then take the mean. For example, [True, False, True, True] would become [1,0,1,1] which would become 0.75.
+
+        accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+        
+#### 3. Finally, we ask for our accuracy on our test data.
+
+        print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
+        
+        
+### This should be about **_92%_**.
