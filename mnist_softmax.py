@@ -47,7 +47,8 @@ def main(_):
 
   # Test trained model
   correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
-  accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+  accuracy-prob = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+  accuracy = accuracy-prob*100
   print(sess.run(accuracy, feed_dict={x: mnist.test.images,
                                       y_: mnist.test.labels}))
 
