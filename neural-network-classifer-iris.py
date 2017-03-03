@@ -36,7 +36,7 @@ classifier.fit(x=training_set.data,
 # Evaluate accuracy.
 accuracy_score = classifier.evaluate(x=test_set.data,
                                      y=test_set.target)["accuracy"]
-print('Accuracy: {0:f}'.format(accuracy_score))
+print('Accuracy: {0:f}'.format(accuracy_score*100))
 
 # Classify two new flower samples.
 new_samples = np.array(
