@@ -1,7 +1,5 @@
 # MNIST Advanced - Building a multilayer convolutional Network
 
-### Setup
-
 ##### 1. Load MNIST Data:
     
     from tensorflow.examples.tutorials.mnist import input_data
