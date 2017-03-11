@@ -43,8 +43,12 @@
     
    What TensorFlow actually did in that single line was to add new operations to the computation graph. These operations included ones to compute gradients, compute parameter update steps, and apply update steps to the parameters.
    
-   The returned operation _*train_step*_, when run, will apply the gradient descent updates to the parameters. Training the model can therefore be accomplished by repeatedly running _*train_step*_.
+So we first run the train step:
+
+    tf.initialize_all_variables().run()
    
+   The returned operation _*train_step*_, when run, will apply the gradient descent updates to the parameters. Training the model can therefore be accomplished by repeatedly running _*train_step*_.
+
     for i in range(1000):
       batch = mnist.train.next_batch(100)
       train_step.run(feed_dict={x: batch[0], y_: batch[1]})
