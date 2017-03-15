@@ -11,7 +11,7 @@
     
 3. Execute the tutorial code to train the linear model:
   
-    shell $ python wide_n_deep.py --model_type=wide_n_deep
+    shell $ python wide-n-deep.py --model_type=wide_n_deep
   
   
 ### B. Define Base Feature Columns
