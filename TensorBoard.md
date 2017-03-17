@@ -25,3 +25,15 @@
   
   ###### After we've initialized the FileWriters, we have to add summaries to the FileWriters as we train and test the model - https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/FileWriters-TensorBoard.md
  
+ 
+## Execution:
+
+##### To run TensorBoard, use the following command (alternatively python -m tensorflow.tensorboard) where logdir points to the directory where the FileWriter serialized its data. If this logdir directory contains subdirectories which contain serialized data from separate runs, then TensorBoard will visualize the data from all of those runs. Once TensorBoard is running, navigate your web browser to localhost:6006 to view the TensorBoard.:
+    
+    tensorboard --logdir=path/to/log-directory
+    
+##### When looking at TensorBoard, you will see the navigation tabs in the top right corner. Each tab represents a set of serialized data that can be visualized.
+
+#### Play around :)
+    
+##### 
