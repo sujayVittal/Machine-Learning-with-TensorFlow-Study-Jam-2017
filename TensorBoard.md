@@ -21,7 +21,7 @@
   
   ###### Now that you've modified your graph and have a FileWriter, you're ready to start running your network! If you want, you could run the merged summary op every single step, and record a ton of training data. That's likely to be more data than you need, though. Instead, consider running the merged summary op every n steps.
   
-  ###### The code example below is a modification of the simple MNIST tutorial, in which we have added some summary ops, and run them every ten steps. If you run this and then launch tensorboard --logdir=/tmp/mnist_logs, you'll be able to visualize statistics, such as how the weights or accuracy varied during training.
+  ###### The code example below is a modification of the simple MNIST tutorial, in which we have added some summary ops, and run them every ten steps. If you run this and then launch tensorboard --logdir=/tmp/mnist_logs, you'll be able to visualize statistics, such as how the weights or accuracy varied during training - https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/weights_accuracy_during_training-tensorboard.md
   
-  
+  ###### After we've initialized the FileWriters, we have to add summaries to the FileWriters as we train and test the model [Link:https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/FileWriters-TensorBoard.md .
  
