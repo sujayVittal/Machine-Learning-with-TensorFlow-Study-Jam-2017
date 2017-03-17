@@ -23,5 +23,5 @@
   
   ###### The code example below is a modification of the simple MNIST tutorial, in which we have added some summary ops, and run them every ten steps. If you run this and then launch tensorboard --logdir=/tmp/mnist_logs, you'll be able to visualize statistics, such as how the weights or accuracy varied during training - https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/weights_accuracy_during_training-tensorboard.md
   
-  ###### After we've initialized the FileWriters, we have to add summaries to the FileWriters as we train and test the model [Link:https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/FileWriters-TensorBoard.md .
+  ###### After we've initialized the FileWriters, we have to add summaries to the FileWriters as we train and test the model - https://github.com/sujayVittal/Machine-Learning-with-TensorFlow-Study-Jam-2017/blob/master/FileWriters-TensorBoard.md
  
